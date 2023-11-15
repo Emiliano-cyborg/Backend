@@ -1,12 +1,4 @@
 class Product {
-    id
-    title
-    description
-    price
-    thumbnail
-    code
-    stock
-
     constructor({ id, title, description, price, thumbnail, code, stock }) {
         this.id = id,
         this.title = title,
